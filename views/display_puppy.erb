@@ -5,9 +5,9 @@
     <title>Puppy Shelter</title>
   </head>
   <body>
-  <h1>Puppy Name: <%=params[:name]%></h1>
-  <h1>Breed: <%=params[:breed]%></h1>
-  <h1>Age: <%=params[:age]%></h1>
+  <h1>Puppy Name: <%=@puppy.name%></h1>
+  <h1>Breed: <%=@puppy.breed%></h1>
+  <h1>Age: <%=@puppy.age%></h1>
   <h1><a href="/new.erb">Click Here to List a Puppy</a>
   </body>
 </html>

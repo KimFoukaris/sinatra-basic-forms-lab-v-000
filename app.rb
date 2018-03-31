@@ -6,6 +6,11 @@ get '/' do
   erb :index
 end
 
+link '/' do
+  "Click Here To List A Puppy"
+  erb :create_puppy
+end
+
 get '/new' do
   erb :create_puppy
 end
